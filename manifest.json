@@ -1,0 +1,21 @@
+{
+  "name": "Add signature for brand app",
+  "author": {
+    "name": "Sander Scheer",
+    "email": "sander.scheer@drukwerkdeal.nl"
+  },
+
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["ticket_sidebar","new_ticket_sidebar"],
+  "version": "1.0",
+  "frameworkVersion": "1.0",
+  "noTemplate": true,
+  "parameters": [
+    {
+      "name": "placeholder",
+      "type": "text",
+      "required": true
+    }
+  ]
+}

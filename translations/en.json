@@ -1,0 +1,17 @@
+{
+  "app": {
+    "description":  "Add signature for brand",
+    "name":         "Add signature for brand",
+
+    "parameters": {
+      "placeholder" : {
+        "label": "Placeholder",
+        "helpText": "The dynamic-content placeholder that is placed as signature."
+      }
+    }
+  },
+
+  "errors": {
+    "placeholder": "Placeholder cannot be blank."
+  }
+}
