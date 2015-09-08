@@ -15,7 +15,7 @@ The app adds a placeholder to the end of every public comment of the ticket, bef
 
 ## Dynamic Content
 
-The dynamic content placeholder should look something like this:
+The dynamic content of the signature should look something like this:
 
 ```
 {% case ticket.ticket_field_option_title_24431341 %}
@@ -35,3 +35,4 @@ Brand 2
 0123-456789
 {% endcase %}
 ```
+Of course, you have to change the value `ticket.ticket_field_option_title_24431341` to the value of your own brand selection ticket field.
